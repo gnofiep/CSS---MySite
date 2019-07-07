@@ -1,0 +1,30 @@
+.red{
+  height: 100px;
+  width: 100px;
+  background-color: red;
+  position: absolute;
+  top:200px;
+  left:200px;
+}
+.blue{
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  top:100px;
+  position: absolute;
+  left:100px;
+
+}
+.yellow{
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+  position: absolute;
+}
+body{
+  margin: 0;
+}
+
+/*pixel to pixel with margin border being 0
+easily put position by pixel;
+*/
