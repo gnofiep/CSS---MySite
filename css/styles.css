@@ -1,63 +1,107 @@
 body {
-  background-color:  #f7fbfc;
+  background-color: #f7fbfc;
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   text-align: center;
 }
-.top-container{
-  background-color: #d3f6f3 ;
-  padding-top: 100px;
-}
+
 strong {
   color: #769fcd;
 }
+
 h1 {
   padding-top: 1em;
   color: #769fcd;
-  font-family: 'Nanum',cursive;
+  font-family: 'Nanum', cursive;
   margin: 0 auto 0 auto;
+  font-size: 90px;
 }
-h2{
+
+h2 {
   color: #769fcd;
-  font-family: 'DM Serif Display',serif;
+  font-family: 'DM Serif Display', serif;
   margin: 0 auto 0 auto;
 }
-h3{
+
+h3 {
   color: #769fcd;
-  font-family: 'DM Serif Display',serif;
+  font-family: 'DM Serif Display', serif;
   margin: 0 auto 0 auto;
 }
-img{
-  position:relative;
+h4 {
+  color: #769fcd;
+  font-family: 'DM Serif Display', serif;
+  margin: 0 auto 0 auto;
 }
-.cloudleft{
+
+img {
+  position: relative;
+}
+
+p {
+  font-family: 'DM Serif Display', serif;
+  color: #769fcd;
+  text-align: center;
+}
+
+div {
+  margin: 0;
+  padding: 1em;
+}
+
+a {
+  color: #293462;
+}
+
+tr {
+  color: #293462;
+}
+
+.top-container {
+  background-color: #d3f6f3;
+  padding-top: 100px;
+}
+
+.cloudleft {
   position: absolute;
   left: 150px;
   top: 300px;
 }
-.cloudright{
+
+.cloudright {
   position: absolute;
   left: 500px;
-  top:50px;
+  top: 50px;
 }
-.mountain{
-  position:relative;
+
+.mountain {
+  position: relative;
   left: 50px;
   bottom: 50px;
-
-}
-p{
-  font-family: 'DM Serif Display',serif;
-  color: #769fcd;
-}
-div {
-  margin:0;
-  padding:1em;
 }
 
 .pro {
   text-decoration: underline;
 }
-a{
-  color: #293462;
+
+.profile {
+  image-resolution: snap;
+  max-width: 100%;
+  height: auto;
+  position: relative;
+}
+
+.propic {
+  max-width: 30%;
+  height: auto;
+}
+
+.tableSkill {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.frameworksApp {
+  margin-left: auto;
+  margin-right: auto;
 }
