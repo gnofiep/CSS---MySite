@@ -14,15 +14,30 @@ h1 {
   padding-top: 1em;
   color: #769fcd;
 }
+img{
+  position:relative;
+}
+.cloudleft{
+  position: relative;
+  left: 150px;
+  top: 300px;
+  display:inline-block;
+}
+.cloudright{
+  position: relative;
+  left: 450px;
 
+  display:inline-block;
+}
+.mountain{
+  position:relative;
+  display:inline-block;
+}
 p{
   color: #769fcd;
 }
 div {
   background-color: #f7fbfc;
-  /*  width: 200px;
-  height: 200px;
-  border: solid;*/
   padding: 20px;
   max-width: 50em;
 }
@@ -32,24 +47,4 @@ div {
 }
 a{
   color: #293462;
-}
-/*
-.top-container{
-  background-color: red;
-  width: 200px;
-  height: 200px;
-  border: solid;
-  padding: 20px;
-  border-
-}
-.bottom-container{
-  background-color: yellow;
-  width: 200px;
-  height: 200px;
-  padding: 20px;
-  margin: 500px;
-}
-.middle-container{
-  margin: 260px;
-  margin-top: 0px;
 }
