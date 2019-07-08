@@ -3,6 +3,7 @@ body {
   font-family: 'Merriweather', serif;
   line-height: 1.5;
   text-align: center;
+  font-size: 110%;
 }
 
 strong {
@@ -11,25 +12,26 @@ strong {
 
 h1 {
   padding-top: 1em;
-  color: #769fcd;
-  font-family: 'Nanum', cursive;
+  color: #17223b;
+  font-family: 'Cinzel', serif;
   margin: 0 auto 0 auto;
-  font-size: 90px;
+  font-size: 5.6rem;
 }
 
 h2 {
-  color: #769fcd;
+  color: #17223b;
   font-family: 'DM Serif Display', serif;
   margin: 0 auto 0 auto;
+  font-size: 2.5rem;
 }
 
 h3 {
-  color: #769fcd;
+  color: #263859;
   font-family: 'DM Serif Display', serif;
   margin: 0 auto 0 auto;
 }
 h4 {
-  color: #769fcd;
+  color: #263859;
   font-family: 'DM Serif Display', serif;
   margin: 0 auto 0 auto;
 }
@@ -40,7 +42,7 @@ img {
 
 p {
   font-family: 'DM Serif Display', serif;
-  color: #769fcd;
+  color: #1c2938;
   text-align: center;
 }
 
@@ -104,4 +106,8 @@ tr {
 .frameworksApp {
   margin-left: auto;
   margin-right: auto;
+}
+
+.icon{
+  font-size: 10px;
 }
