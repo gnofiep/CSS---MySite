@@ -57,10 +57,22 @@ div {
 
 a {
   color: #293462;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+a:hover{
+  color: #e6f8f9;
 }
 
 tr {
   color: #293462;
+}
+
+hr{
+  border: dotted #dff0ea 6px;
+  border-bottom: none;
+  width: 4%;
+  margin: 100px auto;
 }
 
 .top-container {
@@ -125,7 +137,6 @@ tr {
 
 .bottom-container{
   background-color: #28c3d4;
-  margin: 0px;
   padding: 20px 0 20px;
 }
 .butn {
@@ -153,4 +164,9 @@ tr {
   background-image: -o-linear-gradient(top, #41e1f0, #63e0eb);
   background-image: linear-gradient(to bottom, #41e1f0, #63e0eb);
   text-decoration: none;
+}
+
+.copyright{
+  color: #e6f8f9;
+  font-size: 0.75rem;
 }
